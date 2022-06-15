@@ -1,0 +1,217 @@
+GIT Homework 1
+
+To complete the task, you must have GitBash installed for Windows.
+GitHub account created
+
+Perform all script steps in the GitBush terminal, Terminal, in a folder under the git.
+
+
+How do I submit HW for review?
+ 1. Create a text file as in the first Terminal HW.
+ 2. Transfer the script to this file.
+ 3. Against each action - write a command in GitBash.
+
+Send the script file and a link to your git hub to mentors for verification.
+
+JSON
+4. Create an external repository called JSON.
+ New/Create repository "JSON"
+ 5. Clone the JSON repository to the local machine.
+git clone https://github.com/vas2525/JSON.git
+ 6. Inside the local JSON, create a “new.json” file.
+cd JSON && touch new.json
+ 7. Add file under git.
+git add new.json
+ 8. Commit the file.
+git commit -m "new.json"
+ 9. Push the file to an external GitHub repository.
+git push
+ 10. Edit the content of the “new.json” file - write information about yourself (name, age, number of pets, future desired salary). Everything is written in JSON format.
+vim new.json
+vim new.json
+{
+    "name" : "VASILII",
+    "age" : 29,
+    "pets" : "none",
+    "future salary" : 2500
+}
+ 11. Push changes to an external repository.
+git commit -am "change json" && git push
+ 12. Create preferences.json file
+touch preferences.json
+ 13. In the preferences.json file, add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in JSON format.
+vim preferences.json
+{
+    "Film" : "Who I am?",
+    "TV series" : "Fear Factor",
+    "Food" : "dumplings",
+    "Season" : "summer",
+    "Country" : "USA"
+}
+ 14. Create a skills.json file, add information about the skills that will be studied in the course in JSON format
+touch skills.json
+vim skills.json
+{
+    "Skills" : "Hard and soft skills"
+}
+ 15. Send 2 files at once to an external repository.
+git add . && git commit -m "preferences and skill" && git push
+ 16. On the web interface, create the bug_report.json file.
+Add file/create new file
+GitHub -> add file -> create new file -> bug_report.json
+ 17. Make Commit changes (save) changes on the web interface.
+GitHub -> Commit changes
+ 18. Modify the bug_report.json file on the web interface, add a bug report in JSON format.
+GitHub -> bug_report.json -> edit this file
+{ 
+    "Summary" : "In CTR (Click through ratio) ‘Total’ row calculation is wrong",
+    "Product" : "Example product", 
+    "Version" : 1.0, 
+    "Platform" : 
+    "PC", "Version" : "Windows 2000", 
+    "Status" : "NEW", "Severity" : "Major",               
+    "Priority" : "P1", 
+    "Component" : "Publisher stats", 
+    "Steps to reproduce" : 1, 
+    "Expected result" : "wow" 
+}
+ 19. Make Commit changes (save) changes on the web interface.
+GitHub -> commit changes
+ 20. Synchronize external and local JSON repository
+git pull
+
+XML
+ 21. Create an external repository called XML.
+GitHub -> Create New Repository XML
+ 22. Clone the XML repository to the local machine.
+git clone https://github.com/vas2525/XML.git
+ 23. Inside the local XML, create a “new.xml” file.
+cd XML && touch new.xml
+ 24. Add file under git.
+git add new.xml
+ 25. Commit the file.
+git commit -m "new.xml"
+ 26. Push the file to an external GitHub repository.
+git push
+ 27. Edit the content of the “new.xml” file - write information about yourself (name, age, number of pets, future desired salary). Everything is written in XML format.
+vim new.xml
+    <?xml version="1.0"?>
+     <INFO>
+        <NAME>VASILII</NAME>
+        <AGE>29</AGE>
+        <PETS>0</PETS>
+        <SALARY>2500</SALARY>
+    </INFO>
+ 28. Push changes to an external repository.
+git commit -am "change xml" && git push
+ 29. Create preferences.xml file
+touch preferences.xml
+ 30. In the preferences.xml file, add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in XML format.
+vim preferences.xml
+vim preferences.xml
+    <?xml version="1.0"?>
+    <INFO>
+        <FILM>WHO I am?</FILM>
+        <SERIES>Fear Factor</SERIES>
+        <FOOD>Cheeseburger</FOOD>
+        <SEASON>Summer</SEASON>
+        <COUNTRY>USA</COUNTRY>
+    </INFO>
+ 31. Create a skills.xml file, add information about the skills that will be studied in the course in XML format
+touch skills.xml
+vim skills.xml
+<?xml version="1.0"?>
+    <INFO>
+        <SKILLS>The best skills</SKILLS>
+    </INFO>
+ 32. Make a commit in one line.
+git add . && git commit -m "preferences and skill" 
+ 33. Send 2 files at once to an external repository.
+git push
+ 34. Create a bug_report.xml file on the web interface.
+GitHub -> add file -> create new file -> bug_report.xml
+ 35. Make Commit changes (save) changes on the web interface.
+GitHub -> Commit changes
+ 36. Modify the bug_report.xml file on the web interface, add a bug report in XML format.
+GitHub -> bug_report.xml -> edit this file
+<?xml version="1.0"?>
+<INFO>
+    <ID>1</ID>
+    <Title>CART - Unable to add new item to a cart</Title>
+    <Environment>MacBook Air 2018, MacOS Big Sur, Yandex Browser</Environment>
+    <Steps_to_reproduce>
+        <Step>Go to product page</Step>
+        <Step>Press to 'Add to cart button'</Step>
+        <Step>Go to cart</Step>
+    </Steps_to_reproduce>
+    <Priority>High</Priority>
+    <Severity>Critical</Severity>
+    <Expected_Result>The cart containes 1 item</Expected_Result>
+    <Actual_Result>The cart containes 0 items</Actual_Result>
+</INFO>
+ 37. Make Commit changes (save) changes on the web interface.
+GitHub -> commit changes
+ 38. Synchronize external and local XML repository
+git fetch
+git pull
+
+TXT
+ 1. Create an external repository called TXT.
+GitHub -> Create New Repository TXT
+ 2. Clone the TXT repository to the local computer.
+git clone https://github.com/vas2525/TXT.git
+ 3. Inside the local TXT, create the “new.txt” file.
+touch new.txt
+ 4. Add file under git.
+git add new.txt		
+ 5. Commit the file.
+git commit -m "add new.txt"
+ 6. Submit the file to an external GitHub repository.
+git push
+ 7. Edit the contents of the “new.txt” file - write information about yourself (name, age, number of pets, future desired salary). Everything should be written in TXT format.
+vim new.txt
+    name : VASILII,
+    age : 29,
+    pets : 0,
+    future salary : 2500
+ 8. Push changes to an external repository.
+git add "new.txt"
+git commit -m "changes"
+git push
+ 9. Create preferences.txt file
+touch preferences.txt
+ 10. Add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in the file preferences.txt in TXT format.
+vim preferences.txt
+    Film : WHO I am?,
+    TV series : Fear Factor,
+    Food : dumplings,
+    Season : summer,
+    Country : "USA"
+ 11. Create a skills.txt file, add information about the skills that will be studied on the course in TXT format
+touch skills.txt
+vim skills.txt
+Skills : Hard and soft skills
+ 12. Make a commit in one line.
+git add . && git commit -m "preferences and skill"
+ 13. Send 2 files at once to an external repository.
+git push
+ 14. Create a bug_report.txt file on the web interface.
+GitHub -> add file -> create new file -> bug_report.txt
+ 15. Make Commit changes (save) changes on the web interface.
+GitHub -> Commit changes
+ 16. Modify the bug_report.txt file on the web interface, add a bug report in TXT format.
+modifying
+GitHub -> bug_report.txt -> edit this file
+Summary : In CTR (Click through ratio) ‘Total’ row calculation is wrong, 
+Product : Example product, 
+Version : 1.0, 
+Platform : P", 
+Version : Windows 2000, Status : NEW, 
+Severity : Major, Priority : P1, 
+Component : Publisher stats, 
+Steps to reproduce : 1, 
+Expected result : wow
+ 17. Make Commit changes (save) changes on the web interface.
+GitHub -> Commit changes
+ 18. Synchronize external and local TXT repository
+git pull
