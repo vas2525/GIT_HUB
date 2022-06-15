@@ -26,7 +26,7 @@
 - Editing files via vim
 - Adding and committing in one line
 - Editing files in the Github interface
-- Creation of XML, json files
-- commit changes
+- Creation of XML, JSON files
+- Commit changes
 - Synchronization of external and local repository
 
